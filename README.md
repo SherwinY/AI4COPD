@@ -5,7 +5,7 @@
 
 
 ## 简介
-本项目开发了一个基于AutoGluon的COPD病人院内死亡概率及住院时长预测模型。
+基于AutoGluon开发了两个分别预测COPD病人院内死亡概率和住院时长的模型。
 
 ## 环境
 ```Bash
@@ -36,6 +36,9 @@ pip install openpyxl
 
 [ExcelIntergration.py](ExcelIntergration.py)  
 将多个excel中相同登记号的病人信息（如检查结果、检验结果、诊断等）整合到一个excel中。
+
+[DataCompletion.py](./src/DataCompletion.py)  
+基于随机森林的数据补全算法。
 
 [LOSPrediction.py](./src/LOSPrediction.py)  
 依据病例中的文本信息实现对COPD病人住院时长的预测。  

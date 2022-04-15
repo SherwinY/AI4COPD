@@ -56,5 +56,6 @@ pip install openpyxl
 | 2     | 31.61177 | <0.02  | 60  | ..... | 0     |
 
 [Embeddingvisualization.py](./src/Embeddingvisualization.py)  
-使用TSNE来可视化神经网络提取的嵌入，其中的每一个集群对应一个标签，例如下面label=0代表院内死亡病人，label=1代表未死亡病人。
+使用TSNE来可视化神经网络提取的嵌入，其中的每一个集群对应一个标签，例如下面label=0代表院内死亡病人，label=1代表未死亡病人。  
+
 ![embeddingvisualization](embeddingvisualization.png)

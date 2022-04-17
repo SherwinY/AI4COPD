@@ -1,6 +1,6 @@
 # AI for COPD
 
-
+![GitHub](https://img.shields.io/github/license/sherwinY/AI4COPD)
 ![GitHub top language](https://img.shields.io/github/languages/top/sherwinY/AI4COPD)
 
 
